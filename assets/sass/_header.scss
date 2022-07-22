@@ -1,0 +1,75 @@
+#header {
+    border-bottom: solid 1px rgb(240, 239, 239);
+    position: fix;
+    background-color: #fff;
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 80px;
+        align-items: center;
+        padding: 20px;
+        .logo{
+            
+            img{
+                max-width: 115px;
+                height:auto;
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .main-menu{
+        ul{
+            display: flex;
+            flex-direction: row;
+            grid-gap: 10px;
+            max-width:1170px ;
+            justify-content: right;
+
+            li{
+                padding:8px 5px; 
+                box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 10%);
+                background: #ececef;
+                border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                font-size: 0.8rem;
+                font-weight: bold;
+                a{
+                   padding:20px 10px  ;
+                }
+            }
+        }
+    }
+    .button{
+        ul{
+            display: flex;
+            flex-direction: row;
+            grid-gap: 10px;
+            align-items: center;
+            li{
+                a{
+                    padding:8px 30px; 
+                    box-shadow: 0 4px 8px 0 rgba(48, 143, 255 , 50%);
+                    -moz-box-shadow: 0 4px 8px 0 rgba(48, 143, 255 , 50%);
+                    -webkit-box-shadow: 0 4px 8px 0 rgba(48, 143, 255 , 50%);
+                    -ms-box-shadow: 0 4px 8px 0 rgba(48, 143, 255 , 50%);
+                    background: #158CFA;
+                    border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    color: #fff;
+                }
+                img{
+                    width: 25px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

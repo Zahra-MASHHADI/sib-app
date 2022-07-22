@@ -1,0 +1,26 @@
+@import "../sass/_variables.scss";
+@import "../sass/_reset.scss";
+@import "../sass/_global.scss";
+@import "../sass/_typography";
+@import "../sass/_header.scss";
+@import "../sass/_footer.scss";
+
+#border{
+    text-align: center;
+    margin: 20px 0;
+    background: #E8F2F9;
+    border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+ a{
+    font-weight:lighter;
+    color: #4A4A4A;
+ }
+  span{
+    color:#1A73B1;
+    font-weight: bold;
+  }
+}
